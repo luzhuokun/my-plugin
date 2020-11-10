@@ -1,0 +1,28 @@
+{
+  "name": "@luzhuokun/my-plugin",
+  "version": "1.0.0",
+  "description": "一个自我娱乐的vue插件",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node build/build.js",
+    "lint": "eslint src build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luzhuokun"
+  },
+  "keywords": [
+    "vue"
+  ],
+  "author": "luzhuokun",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.7.0",
+    "rollup": "^2.33.1",
+    "rollup-plugin-buble": "^0.19.8",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.5",
+    "webpack": "^5.4.0"
+  }
+}
